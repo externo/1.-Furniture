@@ -1,0 +1,2 @@
+E:\Downloads\1. Furniture_Скелет на решението\FurnitureManufacturer\bin\Debug\Furnitures.exe.config
+E:\Downloads\1. Furniture_Скелет на решението\FurnitureManufacturer\obj\Debug\FurnitureManufacturer.csprojResolveAssemblyReference.cache
