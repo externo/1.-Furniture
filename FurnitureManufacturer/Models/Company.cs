@@ -20,7 +20,7 @@ namespace FurnitureManufacturer.Models
         }
 
 
-        string Name
+        public string Name
         {
             get
             {
@@ -32,7 +32,7 @@ namespace FurnitureManufacturer.Models
             }
         }
 
-        string RegistrationNumber 
+        public string RegistrationNumber 
         {
             get
             {
@@ -44,15 +44,15 @@ namespace FurnitureManufacturer.Models
             }
         }
 
-        Collection<Furniture> Furnitures { get; }
+        public Collection<Furniture> Furnitures { get; }
 
-        void Add(Furniture furniture);
+        public void Add(Furniture furniture);
 
-        void Remove(Furniture furniture);
+        public void Remove(Furniture furniture);
 
         Furniture Find(string model);
 
-        string Catalog()
+        public string Catalog()
         {
             string result = String.Format("{0} - {1} - {2} {3}",
                                             this.Name,
